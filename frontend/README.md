@@ -9,3 +9,28 @@ To run the development server `npm run dev`.
 ## Additional
 
 We use [tailwind](https://tailwindcss.com/), [this component library](https://www.shadcn-svelte.com/) and [these icons](https://lucide.dev/icons/) which I've already installed in this project.
+
+
+Make sure Node.js v22 installed:
+
+`node --version`
+
+```
+nvm install 22
+nvm use 22
+```
+
+Install dependencies
+`nmp install`
+
+Start the Development Server
+npm run dev
+
+Open the app in your browser:
+👉 http://localhost:5173
+
+
+Additional Tools
+Styling: We use Tailwind for styling.
+Component Library: We use ShadCN-Svelte.
+Icons: We use Lucide.
