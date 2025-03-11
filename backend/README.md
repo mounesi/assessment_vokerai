@@ -43,6 +43,11 @@ To start the FastAPI application:
 
 `uvicorn backend.main:app --reload`
 
+## Alternatively Use Poetry to run the application 
+You can run the application from the root repository using the following:
+Please ensure that the environment varialbes are properly exported.
+`poetry run uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload`
+
 ## Testing the Endpoints
 You can manually test the endpoints using curl:
 
